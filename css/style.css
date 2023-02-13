@@ -10,3 +10,14 @@
 #dark *{
     color: white;
 }
+
+/* jumbotron */
+
+
+#jumbotron{
+    background-color: #1abc9c;
+}
+
+#jumbotron *{
+    color: white;
+}
