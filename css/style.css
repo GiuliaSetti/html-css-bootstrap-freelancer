@@ -11,7 +11,7 @@
     color: white;
 }
 
-/* jumbotron */
+/* jumbotron and about*/ 
 
 
 #jumbotron, #about{
@@ -21,4 +21,16 @@
 #jumbotron *,
 #about *{
     color: white;
+}
+
+/* contacts */
+
+#contacts button{
+    color: white;
+    background-color: #1ABC9C;
+    border: transparent;
+}
+
+#contacts .bottom{
+    border-bottom: 1px solid lightgray;
 }
