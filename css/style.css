@@ -14,10 +14,11 @@
 /* jumbotron */
 
 
-#jumbotron{
+#jumbotron, #about{
     background-color: #1abc9c;
 }
 
-#jumbotron *{
+#jumbotron *,
+#about *{
     color: white;
 }
