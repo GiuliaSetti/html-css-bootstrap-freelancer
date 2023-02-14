@@ -5,7 +5,7 @@
 }
 
 
-/* jumbotron */
+/* jumbotron - about*/
 
 .my_green_back{
     color: white;
@@ -21,7 +21,8 @@
     width: 15%;
 }
 
-#jumbotron .line{
+#jumbotron .line,
+#about .line{
     background-color: white;
 }
 
