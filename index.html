@@ -25,27 +25,48 @@
     
 
       <!-- navbar -->
-      <nav id="my_nav" class="py-3 text-uppercase my_dark_back">
+      <nav id="my_nav" class="py-2 text-uppercase my_dark_back">
 
-        <div class="container d-flex justify-content-between">
+        <div class="container d-flex justify-content-between align-items-center">
 
             <!-- sinistra_brand -->
 
-            <div class="nav-left nav-brand "><a class="text-white text-decoration-none fw-bold" href="#">Start Bootstrap</a></div>
+            <div class="nav-left nav-brand"><a class="text-white text-decoration-none fw-bold" href="#">Start Bootstrap</a></div>
 
             <!-- destra-links -->
+
             <div class="nav-right d-none d-sm-block">
-                <ul class="my_link_list list-unstyled d-flex m-0">
+                <ul class="my_link_list d-flex list-unstyled  m-0">
                     <li><a class="text-white text-decoration-none px-2" href="#portfolio">Portfolio</a></li>
                     <li><a class="text-white text-decoration-none px-2" href="#about">About</a></li>
                     <li><a class="text-white text-decoration-none px-2" href="#contact">Contact</a></li>
                 </ul>
+                
             </div>
-
+            
+         
+            
+           
             <!-- manu a barre -->
 
-            <div class="my_bar_menu d-block d-sm-none">
-                <i class="fa-solid fa-bars text-secondary border border-secondary p-1"></i>
+            <div class="my_bar_menu d-block d-sm-none ">
+                <div class="navbar navbar-expand-lg">
+                   
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg" aria-controls="navbarOffcanvasLg">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="offcanvas offcanvas-end my_dark_back" tabindex="-1" id="navbarOffcanvasLg" aria-labelledby="navbarOffcanvasLgLabel">
+                        <div class="nav-right" id="navbarToggleExternalContent ">
+                            <ul class="my_link_list list-unstyled  m-0 p-3">
+                                <li><a class="fs-3 text-white text-decoration-none px-2" href="#portfolio">Portfolio</a></li>
+                                <li><a class="fs-3 text-white  text-decoration-none px-2" href="#about">About</a></li>
+                                <li><a class="fs-3 text-white  text-decoration-none px-2" href="#contact">Contact</a></li>
+                            </ul>
+                            
+                        </div>
+                    </div>
+                  </div>
+               
             </div>
 
         </div>
