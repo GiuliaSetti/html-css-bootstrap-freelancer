@@ -33,3 +33,16 @@
     background-color:black;
 }
 
+
+/* contact me */
+
+.form-control::placeholder{
+    color: black;
+}
+
+
+.my_btn{
+    border: transparent;
+    background-color: #1abc95;
+}
+
