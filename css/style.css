@@ -12,11 +12,11 @@
     background-color: #1abc95;
 }
 
-.my_image_container img{
+/* .my_image_container img{
     width: 20%;
-}
+} */
 
-.line{
+/* .line{
     height: 5px;
     width: 15%;
 }
@@ -24,6 +24,10 @@
 #jumbotron .line,
 #about .line{
     background-color: white;
+} */
+
+.separator-line{
+    width: 10%;
 }
 
 
